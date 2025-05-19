@@ -1,0 +1,14 @@
+<addon id="plugin.video.brumovicecinema"
+       name="Brumovice Cinema"
+       version="1.0.0"
+       provider-name="TvojeJméno">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Streamování z Webshare</summary>
+        <description lang="cs">Addon pro přehrávání filmů a seriálů z Webshare.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

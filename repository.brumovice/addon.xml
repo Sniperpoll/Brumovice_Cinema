@@ -1,0 +1,18 @@
+<addon id="repository.brumovice"
+       name="Brumovice Repository"
+       version="1.0.0"
+       provider-name="Pavel">
+    <extension point="xbmc.addon.repository"
+               name="Brumovice Repository">
+        <dir>
+            <info compressed="false">https://tvoje-url.github.io/kodi-repo-brumovice/addons.xml</info>
+            <checksum>https://tvoje-url.github.io/kodi-repo-brumovice/addons.xml.md5</checksum>
+            <datadir>https://tvoje-url.github.io/kodi-repo-brumovice/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Repozitář pro Brumovice Cinema</summary>
+        <description lang="cs">Automatické aktualizace pluginu Brumovice Cinema.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
