@@ -5,9 +5,9 @@
     <extension point="xbmc.addon.repository"
                name="Brumovice Repository">
         <dir>
-            <info compressed="false">https://tvoje-url.github.io/kodi-repo-brumovice/addons.xml</info>
-            <checksum>https://tvoje-url.github.io/kodi-repo-brumovice/addons.xml.md5</checksum>
-            <datadir>https://tvoje-url.github.io/kodi-repo-brumovice/</datadir>
+            <info compressed="false">https://sniperpoll.github.io/Brumovice_Cinema/addons.xml</info>
+            <checksum>https://sniperpoll.github.io/Brumovice_Cinema/addons.xml.md5</checksum>
+            <datadir>https://sniperpoll.github.io/Brumovice_Cinema/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
