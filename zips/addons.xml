@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.brumovicecinema" name="Brumovice Cinema Repository" version="1.0.0" provider-name="Pavel">
+    <extension point="xbmc.addon.repository"
+               name="Brumovice Cinema Repository"
+               datadir="https://sniperpoll.github.io/Brumovice_Cinema/zips/"
+               info="https://sniperpoll.github.io/Brumovice_Cinema/zips/addons.xml"
+               checksum="https://sniperpoll.github.io/Brumovice_Cinema/zips/addons.xml.md5"
+               compressed="true" />
+    <extension point="xbmc.addon.metadata" >
+        <summary lang="en">Repository for Brumovice Cinema</summary>
+        <description lang="en">GitHub-hosted repo for Brumovice Cinema</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
