@@ -4,9 +4,9 @@
        provider-name="Pavel">
     <extension point="xbmc.addon.repository"
                name="Brumovice Cinema Repo">
-        <info compressed="false">https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/zips/</datadir>
+        <info compressed="false">https://sniperpoll.github.io/Brumovice_Cinema/addons.xml</info>
+        <checksum>https://sniperpoll.github.io/Brumovice_Cinema/addons.xml.md5</checksum>
+        <datadir zip="true">https://sniperpoll.github.io/Brumovice_Cinema/zips/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="cs">Repozitář pro Brumovice Cinema addon</summary>
