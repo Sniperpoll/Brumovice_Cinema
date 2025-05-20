@@ -5,9 +5,8 @@
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Simple template addon for Brumovice Cinema</summary>
-        <description lang="en">Placeholder for Brumovice Cinema addon</description>
+        <summary lang="en">Test addon for Brumovice Cinema</summary>
+        <description lang="en">Basic functional menu addon</description>
         <platform>all</platform>
-        <source>https://github.com/Sniperpoll/Brumovice_Cinema</source>
     </extension>
 </addon>
