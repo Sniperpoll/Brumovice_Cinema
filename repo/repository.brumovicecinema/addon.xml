@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addons>
 <addon id="repository.brumovicecinema" name="Brumovice Cinema Repository" version="1.0.0" provider-name="Pavel">
     <extension point="xbmc.addon.repository"
                name="Brumovice Cinema Repository"
@@ -13,15 +12,3 @@
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="plugin.video.brumovicecinema" name="Brumovice Cinema" version="0.0.1" provider-name="Pavel">
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata" icon="resources/icon.png" fanart="resources/fanart.jpg">
-        <summary lang="en">Brumovice Cinema</summary>
-        <description lang="en">Addon for Webshare and searching movies</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
