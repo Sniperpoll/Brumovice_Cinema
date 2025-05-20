@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <addon id="plugin.video.brumovicecinema" version="0.0.1" name="Brumovice Cinema" provider-name="Pavel">
-    <requires>
-      <import addon="xbmc.python" version="2.26.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py"/>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Simple template addon for Brumovice Cinema</summary>
-      <description lang="en">Placeholder for Brumovice Cinema addon</description>
-      <platform>all</platform>
-      <source>https://github.com/Sniperpoll/Brumovice_Cinema</source>
-    </extension>
-  </addon>
-
-  <addon id="repository.brumovicecinema" name="Brumovice Cinema Repository" version="1.0.0" provider-name="Pavel">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.brumovicecinema" name="Brumovice Cinema Repository" version="1.0.0" provider-name="Pavel">
     <extension point="xbmc.addon.repository"
                name="Brumovice Cinema Repository"
-               version="1.0.0"
-               dirname="repository.brumovicecinema"
                datadir="https://sniperpoll.github.io/Brumovice_Cinema/zips/"
                info="https://sniperpoll.github.io/Brumovice_Cinema/zips/addons.xml"
                checksum="https://sniperpoll.github.io/Brumovice_Cinema/zips/addons.xml.md5"
                compressed="true" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Brumovice Cinema Repository</summary>
-      <description lang="en">Repository for Brumovice Cinema Kodi addons</description>
-      <platform>all</platform>
+    <extension point="xbmc.addon.metadata" >
+        <summary lang="en">Repository for Brumovice Cinema</summary>
+        <description lang="en">GitHub-hosted repo for Brumovice Cinema</description>
+        <platform>all</platform>
     </extension>
-  </addon>
+</addon>
 </addons>
