@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.brumovicecinema" version="0.0.1" name="Brumovice Cinema" provider-name="Pavel">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Simple template addon for Brumovice Cinema</summary>
+        <description lang="en">Placeholder for Brumovice Cinema addon</description>
+        <platform>all</platform>
+        <source>https://github.com/Sniperpoll/Brumovice_Cinema</source>
+    </extension>
+</addon>
