@@ -1,0 +1,14 @@
+<addon id="plugin.video.brumovice_cinema"
+       name="Brumovice Cinema"
+       version="0.0.1"
+       provider-name="Pavel">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Testovací verze Brumovice Cinema</summary>
+        <description lang="cs">Addon podobný Stream Cinema Community</description>
+        <platform>all</platform>
+    </extension>
+</addon>

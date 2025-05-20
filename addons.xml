@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.brumovice_cinema"
+       name="Brumovice Cinema"
+       version="0.0.1"
+       provider-name="Pavel">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Testovací verze Brumovice Cinema</summary>
+        <description lang="cs">Addon podobný Stream Cinema Community</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.brumovice_cinema"
+       name="Brumovice Cinema Repository"
+       version="1.0.0"
+       provider-name="Pavel">
+    <extension point="xbmc.addon.repository"
+               name="Brumovice Cinema Repo">
+        <info compressed="false">https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Sniperpoll/Brumovice_Cinema/main/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Repozitář pro Brumovice Cinema addon</summary>
+        <description lang="cs">Obsahuje plugin.video.brumovice_cinema a umožňuje automatické aktualizace.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
